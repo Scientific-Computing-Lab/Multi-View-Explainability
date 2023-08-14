@@ -99,11 +99,20 @@ rotation = True  # rotation augmentation
 explain = True # if true "explainer" will be trained based on the specified model in model_dir .
 ```
 
+## Models
+* You can download the classification models for each architecture here.
+* You can download the explainability models for each architecture here.
+
+![](images/real_arch.PNG)
+
+**The suggested Multi-View architectures are presented, each fits to another task.**
+
 ## Evaluate
 In order to evaluate a given models run the models/evaluate.py script. You need to specify the chosen models the same as stated above in the training section but also choose the models directory (choosing the proper date).
 The evaluation outputs accuracy, AUC, ROC graph, and loss and accuracy trends graphs graphs
 
 ## Model Explainability
+
 ![](images/attention_LIME.PNG)
 
 **Multi-View local explainability with LIME. Areas of interest are marked with orange in each view.**
