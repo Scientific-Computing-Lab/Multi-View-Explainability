@@ -6,6 +6,9 @@ Physical experiments often involve multiple imaging representations, such as X-r
 
 In this paper, we suggest different multi-view architectures for the vision domain, each suited to another problem, with different relations between its views, and present a methodology for explaining these models. To demonstrate the effectiveness of our methodology, we focus on the domain of High Energy Density Physics (HEDP) experiments, where multiple imaging representations are used to assess the quality of foam samples. We expand the existing dataset and apply our methodology to classify the foam samples using the suggested multi-view architectures.
 Through experimental results, we showcase the improvement of accurate architecture choice on both accuracy - 78\% to 84\% and AUC - 83\% to 93\% and present a trade-off between performance and explainability. Specifically, we demonstrate that our approach enables the explanation of individual one-view models, providing insights into the decision-making process of each view. This comprehensive understanding enhances the interpretability of the overall multi-view model.
+
+Presentation at AI4MAT Vienna 2024 - [https://youtu.be/XeUiB9Ji-I8?si=dxBKNDWB51Uze6oW](https://youtu.be/XeUiB9Ji-I8?si=dxBKNDWB51Uze6oW)
+
 ## Multi-View model Architecture  ##
 ![](images/banner.PNG)
 **Multi-View model gets as an input 5 different views and outputs a classification and the explanation behind it. The explainability is both local and global.**
@@ -29,7 +32,7 @@ conda activate <env_name>
 
 # Citation
 For more information about the measures and their means of the implementations, please refer to the paper.
-If you found these codes useful for your research, please consider citing: [https://arxiv.org/abs/2208.07196](https://arxiv.org/abs/2308.08206)
+If you found these codes useful for your research, please consider citing: [https://openreview.net/forum?id=s4PvJ8hOYX](https://openreview.net/forum?id=s4PvJ8hOYX)
 
 
 ## Running
